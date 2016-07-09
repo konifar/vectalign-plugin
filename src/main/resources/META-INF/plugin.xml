@@ -1,0 +1,45 @@
+<idea-plugin version="3">
+    <id>com.konifar.vectalign</id>
+    <name>Vectalign plugin</name>
+    <version>1.8</version>
+    <vendor email="yahpeycoy0403@gmail.com"
+            url="https://github.com/konifar/vectalign-plugin">
+    </vendor>
+
+    <description><![CDATA[
+      Android Studio & IntelliJ Plugin for AnimatedVectorDrawable.<br> This plugin help you to create AnimatedVectorDrawable using path morphing.
+      ]]></description>
+
+    <change-notes><![CDATA[
+      0.1.0: First version released.
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="131"/>
+
+    <depends>com.intellij.modules.java</depends>
+    <depends>org.jetbrains.android</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <application-components>
+        <!-- Add your application components here -->
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="ShowVectalignViewerAction"
+                class="com.konifar.vectalign.ShowVectalignViewerAction"
+                text="Vectalign" description="Vectalign viewer"
+                icon="/menu_icon.png">
+            <add-to-group group-id="NewGroup" anchor="last"/>
+        </action>
+    </actions>
+
+</idea-plugin>
