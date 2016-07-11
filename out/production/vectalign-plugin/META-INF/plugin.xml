@@ -34,7 +34,7 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="MaterialDesignIconGenerateAction"
+        <action id="ShowVectalignViewerAction"
                 class="com.konifar.vectalign.ShowVectalignViewerAction"
                 text="Vectalign" description="Vectalign viewer"
                 icon="/menu_icon.png">
